@@ -1,3 +1,9 @@
+This works with the following configuration:
+1. Tesla wall connector
+2. Enphase inverters
+3. Tesla car
+
+Steps to setup:
 1. Setup your enphase developer account https://developer-v4.enphase.com/docs/quickstart.html
 2. Get the API key, Client ID, Client Secret from the guide above
 3. Fill up the "tmp.config" file with the correct parameters
