@@ -12,6 +12,9 @@ This project currently is setup for the following configuration:
 The way it works is that the project first checks whether your car is connected to the wall connector.
 It then polls enphase's APIs to check what the current solar generation is
 at periodic intervals, and then sets the charging rate for your tesla accordingly. 
+All the access tokens and data for the project reside on your own device. This project
+doesn't collect any data. Since this uses the enphase and tesla APIs directly
+those services would have data about you. 
 
 Steps to setup:
 1. Setup your enphase developer account https://developer-v4.enphase.com/docs/quickstart.html
